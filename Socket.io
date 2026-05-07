@@ -7,7 +7,7 @@ import platform
 import sys
 
 # --- CONFIGURATION ---
-SERVER_URL = "https://ton-site-railway.app"  # Remplace par l'URL de ton serveur
+SERVER_URL = "botxxx-production.up.railway.app"  # Remplace par l'URL de ton serveur
 DEVICE_NAME = platform.node()                # Nom de ton PC (ex: DESKTOP-XYZ)
 # ---------------------
 
