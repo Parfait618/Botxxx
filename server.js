@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const io = new Server(server);
 
 const devices = new Map();
-const API_KEY = process.env.API_KEY || "mon_mot_de_passe_secret"; 
+const API_KEY = process.env.API_KEY || "mdp"; 
 
 io.on('connection', (socket) => {
     socket.on('register_device', (data) => {
